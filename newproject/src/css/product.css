@@ -1,0 +1,403 @@
+body {
+	margin: 0;
+}
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 29px;
+}
+
+input:focus {
+	outline:none;
+}
+
+.phone-number {
+	display: inline-block;
+	padding-top: 10px;
+	color:  #373737;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	line-height: 22px;
+}
+
+.phone-number:first-child {
+	border-right: 1px solid grey;
+	padding-right: 13px;
+}
+
+
+.phone-number-1 {
+	padding-top: 10px;
+	color:  #373737;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	line-height: 22px;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.button {
+	background-color: #FC9C00;
+	margin-top: 10px;
+	padding: 12px  5px ;
+	border-radius: 5px;
+	color:  white;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	outline: none;
+	border: none;
+	
+}
+.button:hover {
+	background-color: #FCA300;
+	cursor: pointer;
+}
+
+.button img {
+	vertical-align: middle;
+	width: 20px;
+	height: 20px;
+}
+
+/* Production */
+
+.production {
+	position: relative;
+	margin: 0;
+	background: url(../img/newsection/fon2.jpg) center no-repeat;
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 50px;
+	z-index: 1;
+}
+.production::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 0;
+
+}
+
+.box img{
+	width: 480px;
+	height: 378px;
+}
+
+
+.header-production h2 {
+	margin: 0;
+	color: white;
+	font-weight: 700;
+	font-size: 40px;
+}
+
+.header-production p {
+	color: white;
+	font-size: 28px;
+	font-weight: 300;
+	margin: 0;
+	margin-bottom: 27px;
+	margin-top: 5px;
+}
+
+.main-form {
+	background-color: rgba(255, 255, 255, 0.2);
+	padding: 30px 27px;
+}
+
+.form-title {
+	margin-bottom: 8px;
+	padding-right: 87px;
+	color:  white;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.form_title__important {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.form {
+	margin-bottom: 12px;
+}
+
+.form-phone {
+	margin-right: 10px;
+	border-radius: 4px;
+	padding: 20px;
+	padding-right: 100px;
+	border:none;
+	flex-basis: 50%;
+}
+
+.button_big {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.small {
+	font-size: 14px;
+	color: white;
+	font-weight: 300;
+}
+
+
+/* Модальное окно */
+
+.overlay {
+	position: flex;
+	display: block;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(0,0,0,0.4);
+}
+
+/* offer */
+
+.offer {
+	text-align: center;
+	position: relative;
+	padding: 64px 64px;
+	background: url(../img/newsection/fon5.jpg) center no-repeat;
+	background-size: cover;
+	z-index: 2;
+}
+.offer::before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+
+}
+.offer-title {
+	margin: 0;
+	color:  white;
+	font-size: 32px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+}
+
+.offer-title_small {
+	font-size: 26px;
+	display: block;
+}
+
+
+.offer-form_label {
+	margin-bottom: 17px;
+	margin-top: 30px;
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 300;
+}
+
+
+.form-form-2 {
+	text-align: center;
+	padding: 15px;
+	padding-right: 80px;
+	padding-left: 80px;
+	
+}
+
+.button-middle {
+	padding: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	
+}
+
+.small-1 {
+	color:  white;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 30px;
+}
+
+/* Map adress */
+.contact {
+	/* padding-top: 73px;
+	padding-bottom: 87px; */
+	position: relative;
+}
+
+.contact-block {
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: #fff;
+	padding-top: 33px;
+	padding-bottom: 39px;
+	padding-left: 60px;
+	padding-right: 34px;
+}
+
+
+.contact-block__title {
+	display: block;
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 8px;
+	margin-top: 13px;
+}
+
+/* Map */
+
+.map {
+	width: 100%;
+	height:550px;
+}
+
+
+/* advantage */
+
+.advantage {
+	background: url(../img/newsection/fon6.jpg) center no-repeat;
+	background-size: cover;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.header-title {
+	text-align: center;
+	font-size: 16px;
+}
+
+.header-title__advantage {
+	display: block;
+	margin-bottom: 5px;
+	color:  #f39002;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.advantage-block {
+	position: relative;
+	max-height: 132px;
+	text-align: left;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 19px;
+	padding: 28px 73px;
+	margin-top: 37px;
+	background-color: white;
+}
+
+
+.header-title__advantage-block {
+	display: inline-block;
+	margin-bottom: 5px;
+	font-weight: 700;
+}
+
+ .advantage-block img {
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	width: 49px;
+	height: 51px;
+} 
+
+
+/* footer */
+
+.footer {
+	background-color: #141414;
+}
+
+.footer-title {
+	padding: 36px;
+	color:  rgba(255, 255, 255, 0.5);
+	font-size: 13px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 300;
+	line-height: 17px;/* Приближение из-за подстановки шрифтов */
+	text-align: center;
+}
+
+/* Box-production */
+.box-production {
+	padding-top: 57px;
+	padding-bottom: 73px;
+}
+
+.header-box {
+	color:  #313131;
+	font-size: 27px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 10px;
+	text-align: center;
+}
+
+.header-box img {
+	width: 46px;
+	height: 6px;
+}
+
+.img-prod {
+	max-height: 271px;
+	display: block;
+}
+
+.prod {
+	margin-top: 10px;
+	display: block;
+	color:  #313131;
+	font-size: 19.99px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 20px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+
+.prod-2 {
+	padding-left: 120px;
+}
+
+.prod-1 {
+	padding-left: 90px;
+}
+
+.prod-4 {
+	padding-left: 90px;
+}
+.button-div {
+	margin-top: 10px;
+	padding-left: 50px;
+}
+
+.grey {
+	margin-right: 14px;
+	border-radius: 4px;
+	border:2px solid #9F9F9F;
+	background:none;
+	padding: 13.5px;
+	padding-right: 30px;
+	padding-left: 30px;
+	color:  #9F9F9F;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;	
+}
+
+
+.box-product {
+	margin-top: 35px;
+}
